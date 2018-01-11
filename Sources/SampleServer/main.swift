@@ -34,6 +34,7 @@ router.get("/mine") { request, response, next in
             block: minedBlock
         )
     )
+    
     next()
 }
 
